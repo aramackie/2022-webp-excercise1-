@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>演習02 - Webプログラミング</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>演習02 - Webプログラミング</h1>
+    </header>
+    <div>
+      <p>これは、日本大学文理学部情報科学科 Webプログラミングの演習課題です。（作成者：5421004 荒牧諒亮）</p>
+      <div>
+        <h2>aタグ</h2>
+        <h3>(1) 説明</h3>
+        <p>リンクの出発点や、到達点を示す要素です。インライン要素であり、開始タグと終了タグで囲むことで様々なものにリンクをつけることができます。</p>
+        <h3>(2) マークアップ例</h3>
+        <div class="code-panel">
+          <p>
+            <code>
+              &lt;a href="https://example.com/"&gt;サイトへのリンク&lt;/a&gt;
+            </code>
+          </p>
+        </div>
+        <h3>(3) 動作結果</h3>
+        <div class="code-panel">
+          <p>
+            <a href="https://example.com/">サイトへのリンク</a>
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>inputタグ</h2>
+        <h3>(1) 説明</h3>
+        <p>選択ボタンや入力欄といったフォームの部品を作成することができます。type属性に種類を指定します。</p>
+        <h3>(2) マークアップ例</h3>
+        <div class="code-panel">
+          <p>
+            <code>
+              &lt;input type="text" name="word" maxlength="10"&gt;
+            </code>
+          </p>
+        </div>
+        <h3>(3) 動作結果</h3>
+        <div class="code-panel">
+          <p>
+            <input type="text" name="word" maxlength="10">
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>iframeタグ</h2>
+        <h3>(1) 説明</h3>
+        <p>インラインフレームを使用して、他のページを埋め込むことができます。iframeタグに対応していないブラウザでは、タグで囲まれたテキストが代替表示されます。</p>
+        <h3>(2) マークアップ例</h3>
+        <div class="code-panel">
+          <p>
+            <code>
+              &lt;iframe src="https://example.com/" width="400" height="200"&gt;&lt;/iframe&gt;
+            </code>
+          </p>
+        </div>
+        <h3>(3) 動作結果</h3>
+        <div class="code-panel">
+          <p>
+            <iframe src="https://example.com/" width="400" height="200">example.comのページ</iframe>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

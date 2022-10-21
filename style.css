@@ -1,0 +1,17 @@
+h1 {
+  color: #ffffff;
+  background-color: #010079;
+}
+
+h2 {
+  background-color: #a7d6ff;
+  padding: 10px;
+}
+
+.code-panel {
+  background-color: #f2f1f1;
+}
+
+.code-panel p{
+  padding: 8px;
+}
